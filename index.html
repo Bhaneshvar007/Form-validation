@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation.</title>
+    <link rel="stylesheet" href="sttyle.css">
+</head>
+
+<body>
+    <div class="containers">
+        <div class="container submitEvent">
+            <div class="head">
+                <h2>Ragistration Form</h2>
+            </div>
+            
+            <form class="Form" id="Form">
+                <div class="content">
+                    <label for="">Username : </label>
+                    <input type="text" class="username" placeholder="Please Enter your name">
+                    <b class="wrong">!</b>
+                    <b class="right">✓</b>
+                    <small>Error msg</small>
+                </div>
+
+                <div class="content">
+                    <label for="">Email : </label>
+                    <input type="email" class="Email" placeholder="Please Enter your email">
+                    <b class="wrong">!</b>
+                    <b class="right">✓</b>
+                    <small>Error msg</small>
+                </div>
+
+                <div class="content">
+                    <label for="">Phone Number : </label>
+                    <input type="number" class="PhoneNumber" placeholder="Please Enter your PhoneNumber">
+                    <b class="wrong">!</b>
+                    <b class="right">✓</b>
+                    <small>Error msg</small>
+                </div>
+
+                <div class="content">
+                    <label for="">Password : </label>
+                    <input type="password" class="password" placeholder="Please Enter your password">
+                    <b class="wrong">!</b>
+                    <b class="right">✓</b>
+                    <small>Error msg</small>
+                </div>
+
+                <div class="content">
+                    <label for="">Confirm Password</label>
+                    <input type="password" class="Cpassword" placeholder="Please confirm your password">
+                    <b class="wrong">!</b>
+                    <b class="right">✓</b>
+                    <small>Error msg</small>
+                </div>
+
+                <input type="submit" class="submit">
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
